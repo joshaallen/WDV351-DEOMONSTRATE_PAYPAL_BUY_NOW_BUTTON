@@ -1,0 +1,82 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  font-size: 62.5%;
+}
+
+body {
+  width: 100%;
+  min-height: 100%;
+  background-color: lightblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  min-width: 300px;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  min-width: 300px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  height: 70px;
+  border: 2px solid gray;
+  margin-bottom: 70px;
+}
+
+.card--container {
+  background-color: gainsboro;
+  border: 2px solid gainsboro;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  max-width: 350px;
+  height: 300px;
+  width: 300px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+body {
+  font: 1.6rem "Courier New", Courier, monospace;
+}
+
+header {
+  font: 2.4rem "Comic Sans MS", cursive;
+}
+
+/*# sourceMappingURL=buyNowButton.css.map */
